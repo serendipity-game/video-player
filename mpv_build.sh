@@ -1,0 +1,1 @@
+clang mpv.c -o player $(pkg-config --cflags --libs mpv sdl2) -lpthread -lm -O2
